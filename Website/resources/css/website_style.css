@@ -1,0 +1,56 @@
+body {
+    background: url(test-map.png);
+    overflow-x: hidden;
+}
+
+.login-title {
+    color: #59c2c5;
+    font-size: 1em;
+    text-align: center;
+}
+
+.text_block {
+    background-color: whitesmoke;
+    width: 80%;
+    height: 2em;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid silver;
+    outline: none;
+    font-size: 1.4em;
+}
+
+.login-title span {
+    margin-right: 0.5em;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#login_btn {
+    background-color: #59c2c5;
+    width: 38%;
+    border-radius: 8px;
+    margin-top: 5%;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: white;
+}
+
+#login_btn:hover {
+    cursor: pointer;
+}
+
+
+#login_block {
+    background-color: whitesmoke;
+    border-radius: 25px;
+    text-align: center;
+    padding: 0.5em 4%;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+@media only screen and (max-width: 480px) { /*for phone*/
+    
+}
